@@ -1,0 +1,72 @@
+/* 
+    --------------------------------------------------------
+                        Split layout 
+    --------------------------------------------------------     
+*/
+.splitContainer {
+    width: 100%;
+    height: 100vh;
+}
+
+#liveSection,
+#projectSection {
+    position: relative;
+    width: 100%;
+}
+
+#liveSection:before,
+#projectSection:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0.1;
+    transform: translate(-50%, -50%);
+    font-family: FontAwesome;
+    text-shadow: 2px 2px 20px #111;
+    color: #999;
+}
+
+#liveSection:before {
+    font-size: 6em;
+    content: "\f108";
+}
+
+#projectSection:before {
+    font-size: 6em;
+    content: "\f56d";
+}
+
+.splitContainer .split {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.splitContainer .gutter {
+    border: 1px solid #bbb;
+    background-color: #dfdfdf;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.splitContainer .gutter:hover {
+    background-color: #333;
+}
+
+.splitContainer .gutter.gutter-horizontal {
+    cursor: col-resize;
+    background-image: url('../grips/vertical.png');
+}
+
+.splitContainer .gutter.gutter-vertical {
+    cursor: row-resize;
+    background-image: url('../grips/horizontal.png');
+}
+
+.splitContainer .split.split-horizontal,
+.splitContainer .gutter.gutter-horizontal {
+    height: 100%;
+    float: left;
+}

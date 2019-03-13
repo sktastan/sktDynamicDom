@@ -1,0 +1,149 @@
+/* 
+    --------------------------------------------------------
+                            Main css 
+    --------------------------------------------------------     
+*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+    outline: none;
+
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+
+body {
+    background: #dfdfdf;
+}
+
+hr{
+    margin: 15px 0
+}
+
+#idNativeClassNameList .clearFix {
+    clear: both
+}
+
+#rightSide{
+    width: 100%;
+    height: 100vh;  
+    padding:5px; 
+    overflow: auto;
+}
+
+#rightSide > section{
+    padding: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;  
+    background-color: #dadada;
+    box-shadow: #555 1px 1px 4px;
+}
+
+#rightSide > section:hover{
+    box-shadow: #777 5px 5px 10px;
+}
+
+#rightSide input[type="edit"]{
+    width: 100%;
+    padding: 8px 20px;
+    margin: 10px 0;
+    border:1px solid #999;
+    background: none;
+    border-radius: 20px;
+    color: #ca2c68;
+   
+}
+
+#rightSide input[type="edit"]:hover{
+    box-shadow: #777 1px 1px 10px;
+}
+
+.section ul{  
+    list-style: none;        
+}
+
+.section ul li{
+    padding: 10px;
+    cursor:pointer;
+    color: #000;
+}
+
+.section ul li:hover{
+    color: #ca2c68;
+}
+
+.section li:hover a{
+    color: #ca2c68;
+}
+
+#idNativeClassNameList, #idNativeCodeCssList, #idCssClassNameList, #idCssList{
+    padding: 20px;
+    list-style: none;
+}
+
+#idNativeClassNameList li a, #idNativeCodeCssList li a, #idCssClassNameList li a, #idCssList li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px
+}
+
+.warea{
+    width: 100%;
+    overflow: auto;
+    height: 100vh; 
+    background-color: #dadada;  
+}
+
+#rightSide > section > .skt_button{    
+    width: 100%;
+    margin: 2px 0;
+    border:1px solid #999;
+    background: none;
+    border-radius: 20px;
+    box-shadow: #777 1px 1px 3px;
+}
+
+#rightSide > section > .skt_button:hover{  
+    background-color: #ca2c68; 
+    cursor:pointer;
+    box-shadow: #777 1px 1px 10px;
+}
+
+#rightSide > section > .skt_button a{
+    display: block;
+    text-decoration: none;
+    color:rgb(0, 0, 0); 
+    padding: 8px 20px;
+    text-align: center;    
+}
+
+#rightSide > section > .skt_button:hover a{    
+    color: #fff;
+}
+
+#rightSide textarea{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border:1px solid #aaa;
+    background: none;
+}
+
+#rightSide label{
+    color: rgb(0, 4, 10); 
+    margin: 10px;
+    font-weight: bold
+}
+
+@media screen and (max-width: 768px) {
+	
+}

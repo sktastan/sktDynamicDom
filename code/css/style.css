@@ -1,0 +1,11 @@
+*{margin:0;box-sizing:border-box;padding:0}
+.container{background-color:#262626;height:100vh;color:white}
+.pageContainer{margin:0 auto;width:90%;position:relative;height:100vh}
+.jobEx{height:200px;background-color:#292929;border-radius:20px}
+.borderDiv{border:1px solid #fff}
+.cvHeader{padding:20px;height:120px}
+.nameH1{vertical-align:middle;display:inline-block;color:#E6236F;border:1px solid #E6236F}
+.cvHeaderLeftSide{display:inline}
+.cvHeaderRightSide{position:relative;display:inline-block}
+@media screen and (max-width: 768px){
+}
